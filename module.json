@@ -2,7 +2,7 @@
   "id": "safari-popup-fix",
   "title": "Safari Popup Fix",
   "description": "Aplica ajustes visuales para Safari que corrigen la altura de diálogos.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "dorevic"
