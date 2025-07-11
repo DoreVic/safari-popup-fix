@@ -1,13 +1,21 @@
-// Safari Popup Fix para FoundryVTT
-// Fuerza altura adecuada en todos los diálogos de aplicación
+// Aplica estilos a todos los dialogs visibles en Foundry (como lo hace el bookmarklet)
 
-Hooks.on("renderApplication", (app, html, data) => {
-  const dialog = html.closest("dialog")[0] ?? html[0];
+function fixAllDialogs() {
+  const dialogs = document.querySelectorAll("dialog.application.dialog");
+  dialogs.forEach((e) => {
+    e.style.height = "auto";
+    e.style.minHeight = "100px";
+    e.style.maxHeight = "80vh";
+    e.style.overflow = "auto";
+  });
+}
 
-  if (!dialog || !(dialog instanceof HTMLElement)) return;
+// Corre al inicio por si hay diálogos abiertos ya
+Hooks.once("ready", () => {
+  fixAllDialogs();
+});
 
-  dialog.style.height = "auto";
-  dialog.style.minHeight = "100px";
-  dialog.style.maxHeight = "80vh";
-  dialog.style.overflow = "auto";
+// Corre cada vez que se renderiza una app
+Hooks.on("renderApplication", () => {
+  fixAllDialogs();
 });
