@@ -9,5 +9,7 @@
     "minimum": "10",
     "verified": "13"
   }
-  "scripts": ["safari-popup-fix.js"],
+    "esmodules": [
+        "safari-popup-fix.js"
+    ]
 }
