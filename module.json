@@ -4,7 +4,6 @@
   "description": "Aplica ajustes visuales para Safari que corrigen la altura de diálogos.",
   "version": "1.0.0",
   "author": "Brian",
-  "version": "1.0.0",
   "compatibility": {
     "minimum": "10",
     "verified": "13"
