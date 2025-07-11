@@ -17,6 +17,6 @@
     "safari-popup-fix.js"
   ],
   "url": "https://github.com/DoreVic/safari-popup-fix",
-  "manifest": "https://raw.githubusercontent.com/DoreVic/safari-popup-fix/main/module.json",
-  "download": "https://github.com/DoreVic/safari-popup-fix/archive/refs/heads/main.zip"
+  "manifest": "https://raw.githubusercontent.com/DoreVic/safari-popup-fix/master/module.json",
+  "download": "https://github.com/DoreVic/safari-popup-fix/archive/refs/heads/master.zip"
 }
