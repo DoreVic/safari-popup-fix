@@ -1,0 +1,17 @@
+{
+  "name": "safari-popup-fix",
+  "title": "Safari Popup Fix",
+  "description": "Aplica ajustes visuales para Safari que corrigen la altura de diálogos.",
+  "version": "1.0.0",
+  "author": "Brian",
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "13",
+  "scripts": ["safari-popup-fix.js"],
+  "esmodules": [],
+  "styles": [],
+  "packs": [],
+  "system": [],
+  "url": "https://github.com/DoreVic/safari-popup-fix",
+  "manifest": "https://raw.githubusercontent.com/DoreVic/safari-popup-fix/main/module.json",
+  "download": "https://github.com/DoreVic/safari-popup-fix/archive/refs/heads/main.zip"
+}
